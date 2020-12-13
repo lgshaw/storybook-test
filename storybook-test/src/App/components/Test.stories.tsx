@@ -7,7 +7,7 @@ import { text } from 'sku/@storybook/addon-knobs';
 import Test from './Test';
 
 storiesOf('Test', module).add('test', () => (
-  <div 
+  <Test 
     title={text('Title', 'Default title', 'defaultGroup')}
     text={text('Text', 'Default text', 'defaultGroup')}
   />
